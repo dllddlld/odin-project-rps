@@ -29,7 +29,7 @@ function playRound(playerSelection, computerSelection) {
     let indexDiff = playerSelectionIndex - computerSelectionIndex;
     switch (indexDiff) {
         case (0):
-            result = `It's a draw! You both chose ${playerSelection}`;
+            result = `It's a draw! You both chose ${computerSelection}`;
             break;
         case (1):
         case (-2):
