@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 72px;
+    padding: 8px;
+    border: .4rem solid black;
+    border-radius: .5rem;
+}
+
+.loser {
+    border-color: red;
+}
+
+.winner {
+    border-color: green;
+}
+
+.draw {
+    border-color: orange;
+}
+
+.header {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 30px;
+    flex-wrap: wrap;
+}
